@@ -109,8 +109,96 @@ struct HomePage: View {
                             Text("1/5").padding(3).background(.color6).cornerRadius(7).font(.system(size: 12)).foregroundStyle(.white).padding(6)
                             
                         }.shadow(radius: 5)
-                        Text("Kategoriler")
-                        Text("Ürünler")
+                        
+                        ScrollView(.horizontal, showsIndicators: false) {
+                            HStack(alignment: .top, spacing: 5) {
+                                
+                                VStack(spacing: 8) {
+                                    ZStack {
+                                        Circle()
+                                            .fill(Color.white)
+                                            .overlay(
+                                                Circle().stroke(Color.pink, lineWidth: 2)
+                                            )
+                                            .frame(width: 70, height: 70)
+                                        
+                                        Image("food1")
+                                            .resizable()
+                                            .scaledToFit()
+                                            .frame(width: 40, height: 55)
+                                    }
+                                    
+                                    Text("Yemek")
+                                        .frame(width: 100)
+                                        .font(.system(.subheadline))
+                                        .multilineTextAlignment(.center)
+                                }
+                                
+                                VStack(spacing: 8) {
+                                    ZStack {
+                                        Circle()
+                                            .fill(Color.white)
+                                            .overlay(
+                                                Circle().stroke(Color.pink, lineWidth: 2)
+                                            )
+                                            .frame(width: 70, height: 70)
+                                        
+                                        Image("market")
+                                            .resizable()
+                                            .scaledToFit()
+                                            .frame(width: 70, height: 50)
+                                    }
+                                    
+                                    Text("Hızlı Market")
+                                        .frame(width: 100)
+                                        .font(.system(.subheadline))
+                                        .multilineTextAlignment(.center)
+                                }
+                                
+                                VStack(spacing: 8) {
+                                    ZStack {
+                                        Circle()
+                                            .fill(Color.white)
+                                            .overlay(
+                                                Circle().stroke(Color.pink, lineWidth: 2)
+                                            )
+                                            .frame(width: 70, height: 70)
+                                        
+                                        Image("sale")
+                                            .resizable()
+                                            .scaledToFit()
+                                            .frame(width: 100, height: 50)
+                                    }
+                                    
+                                    Text("Bugün Fiyatı\nDüşenler")
+                                        .frame(width: 110)
+                                        .font(.system(.subheadline))
+                                        .multilineTextAlignment(.center)
+                                }
+                                
+                                VStack(spacing: 8) {
+                                    ZStack {
+                                        Circle()
+                                            .fill(Color.white)
+                                            .overlay(
+                                                Circle().stroke(Color.pink, lineWidth: 2)
+                                            )
+                                            .frame(width: 70, height: 70)
+                                        
+                                        Image("coupon")
+                                            .resizable()
+                                            .scaledToFit()
+                                            .frame(width: 40, height: 40)
+                                    }
+                                    
+                                    Text("Kuponlar")
+                                        .frame(width: 100)
+                                        .font(.system(.subheadline))
+                                        .multilineTextAlignment(.center)
+                                }
+                            }
+                            .padding(.top,5)
+                        }
                     }
                     
                     
