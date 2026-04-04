@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+# SwiftUIBootcamp---Assignment---Listing-Interface-of-a-Popular-Application
 
 <h2>Step 1</h2>
 <p>This is the first version of the interface. At this stage, I created the top section of the home page, including the gradient background, search bar, category buttons, and campaign banner.</p>
@@ -10,10 +10,4 @@
 
 <p><i>Some icons and images used in this project were taken from <a href="https://www.flaticon.com/">Flaticon</a> and <a href="https://pixabay.com/tr/">Pixabay</a>.</i></p>
 
-
-# SwiftUIBootcamp---Assignment---Listing-Interface-of-a-Popular-Application
-=======
-# SwiftUIBootcamp---Homework---Listing-Interface-of-a-Popular-Application
->>>>>>> 59db652 (Update README.md)
-Trendyol-inspired product listing interface built with SwiftUI. This project is being developed step by step, focusing on UI design, layout structures, and reusable components.
 
