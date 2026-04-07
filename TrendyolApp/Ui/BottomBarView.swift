@@ -14,7 +14,7 @@ struct BottomBarView: View {
     var body: some View {
         VStack(spacing: 0) {
             
-            Divider() // üst çizgi
+            Divider() 
             
             HStack {
                 
